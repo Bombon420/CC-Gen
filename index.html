@@ -5,8 +5,6 @@
 <meta name="description" content=""> <meta name="author" content=""> 
 <link rel="shortcut icon" href="http://www.sayapro.us/images/icon.ico" type="image/ico"> 
 
-<link href="http://www.sayapro.us/themes/default/css/style.default.css" rel="stylesheet"> 
-
 <style>
 .spinner {
   width: 40px;
@@ -84,8 +82,8 @@ function copy() {
 <body class=""> 
 <header>
 <br/>
-<section class="title"><img src="http://ayyaantuu.net/wp-content/uploads/2016/08/abbaa_gadaa.jpg" alt="Icon"> Adda Bilisummaa Oromoo! [ABO Coders] | Carders Tools </section>
-<div class="hh-title"> Carders Tools! <br />
+<section class="title"> Bombon's CC Gen </section>
+<div class="hh-title">  <br />
 <i class="fa fa-cc-mastercard" aria-hidden="true"></i> 
 <i class="fa fa-cc-discover" aria-hidden="true"></i> 
 <i class="fa fa-cc-visa" aria-hidden="true"></i> 
@@ -93,11 +91,7 @@ function copy() {
 <i class="fa fa-cc-amex" aria-hidden="true"></i> 
 <i class="fa fa-cc-diners-club" aria-hidden="true"></i></div>
 </header>
-<center>
-<span style="font-size:25px;"><img src="http://oromoliberationfront.org/english/wp-content/uploads/2017/02/ALAABAANew1.gif"></img></span>
-<span style="font-size:20px;"><img src="https://lh3.googleusercontent.com/-YX8jm0V1Elw/VhEyW5xUB5I/AAAAAAAAjYA/iYk3gCDw_MA/s1600/ethiopia-flag-pole-animated.gif"></img></span>
-<span style="font-size:25px;"><img src="http://oromoliberationfront.org/english/wp-content/uploads/2017/02/ALAABAANew1.gif"></img></span></br>
-</center>
+
 
 
 <!-- headerbar -->
@@ -165,7 +159,7 @@ count++;
  } var _on = sbtString(_on," (-/abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWXYZ)");
  return _on;
  };
- var _cl = function(v,x){ if(x == 'Global Carding Inc.') return v.join("\n");
+ var _cl = function(v,x){ if(x == 'Checker') return v.join("\n");
  if(x == 'json'){ var _f = '';
  for (var i = 0;
  i < v.length;
@@ -204,18 +198,17 @@ count++;
  } }else var op = ['You enter full card number? try see Pro Tips'];
  _cl(op,$('#_cl').val());
  ou.val(_cl(op,$('#_cl').val()));
- }</script><title>CC Generator - Powered by Global Carding Inc. </title>
- <script type="text/javascript"></script><div class="contentpanel"> 
+ }</script>
  <!--contentpanel--> 
  <div class="panel panel-default">
  <div class="panel-heading"> 
  <h3 class="Lbutton" align="right">
-   <center>----------| ABO CC Gen V1.0 |----------</center> </h3> </div>
+   <center>----------| Bombon CC Gen V1.0 |----------</center> </h3> </div>
   <div class="panel-body"> 
   <div class=""> 
   <div class="Ilabel"> 
-  <i class="fa fa-gg"></i> Enter your BIN&ensp;&ensp; 
-  <input class="input_text" name="ccbin" id="ccbin" placeholder="434256 or 400314xxxxxxxxxx" required="" type="text"> 
+  <i class="fa fa-gg"></i> Bin&ensp;&ensp; 
+  <input class="input_text" name="ccbin" id="ccbin" placeholder="xxxx-xxxx-xxxx-xxxx" required="" type="text"> 
   </br>
   <strong>
   <label style="padding-left:9em">
@@ -225,14 +218,9 @@ count++;
   </strong>
   </div> 
   <div class="Ilabel"> <i class="fa fa-shopping-bag" aria-hidden="true">Amounts : </i> 
-  <input onclick="this.select()" class="input_text" name="cccount" id="cccount" placeholder="50" required="" value="50" type="number"> </div> 
+  <input onclick="this.select()" class="input_text" name="cccount" id="cccount" placeholder="10" required="" value="10" type="number"> </div> 
   
-  <div class="Ilabel"> <label color="#7EC7C0" class="fa fa-cogs" aria-hidden="true"> <font color="#7EC7C0"> Format : </font></label> 
-  <select id="_cl" class="input_text"> 
-  <option value="Global Carding Inc.">Global Carding Inc.</option> 
-  <option value="json">JSON</option> 
-  <option value="sql" disabled="">SQL</option> </select> </div> 
-  <div class="form-group col-sm-15"> </div> <div class="form-group col-sm-15"> 
+  <div class="Ilabel"> <label color="#7EC7C0" class="fa fa-cogs" aria-hidden="true"> <font color="#7EC7C0"> Format : </font></label>
 
 
 
@@ -243,43 +231,5 @@ count++;
  <a onclick="bin2cc($('#ccbin').val(),$('#cccount').val(),$('#output'))" type="submit" class="Lbutton"><i class="fa fa-bolt"aria-hidden="true"></i>&nbsp;GENERATE CC</a> </center>
   <textarea id="output" class="textarea" cols="25" rows="15" readonly="" placeholder=""></textarea>
    </div> </div>  </div>
-
-
-   
-  <div id="result"> </div> </div> </div> </div> <!--end content--></div><script> $(document).ready(function(){ if(window.console || "console" in window) { console.log("%cSAYA%cPRO%c.US", "color:#a94442;
- font-size:40px;
-", "color:#1CAF9A;
- font-size:40px;
-", "color:#636E7B;
- font-size:40px;
-");
- console.log("%c Hey! we need someone like you. Maybe we can talk ? ", "color:#003087;
- font-size:12px;
-");
- console.log("%c Contact : spammersking@hi2.in", "color:#003087;
- font-size:12px;
-");
- } });
- function closeAlert(alert_class){ var findIndexInData = function(data, property, value) { var result = -1;
- data.some(function (item, i) { if (item[property] === value) { result = i;
- return true;
- } });
- return result;
- };
- var closed = $.cookie("clAlert");
- if(closed == null) var closed = JSON.stringify([]);
- var closed1 = JSON.parse(closed);
- if(findIndexInData(closed1, 'name', alert_class) == -1) closed1.unshift({'name': alert_class});
- $.cookie("clAlert", JSON.stringify(closed1), { path: '/', expires: 365 });
- } function closedAlert_READY(){ $(JSON.parse($.cookie("clAlert"))).each(function(i,el){ if(el.name != 'undefined'){ $('.'+el.name).css('display','none');
- } });
- }</script>
-
- <span id="out">
-<span/><footer><i class="fa fa-credit-card-alt" aria-hidden="true"></i>
-<strong>ABO CC GEN V1.0 </strong><i class="fa fa-credit-card-alt" aria-hidden="true"></i> </br>
-<i class="fa fa-user-secret" aria-hidden="true"></i> Developers <a href="https://telegram.me/ABOCODERS" style="color:#00ffff;">ABO Coders</a><br />
-<i class="fa fa-user-secret" aria-hidden="true"></i><a href="https://telegram.me/HQCarder" style="color:#00ffff;">Carders King</a><br /> 
-<a target="_BLANK" href="https://www.t.me/gbcarding" style="color:#00ffff;">Powered by <strong> GLOBAL CARDING</strong> </a><i class="fa fa-certificate" aria-hidden="true"></i><br />
 
  </body></html>
