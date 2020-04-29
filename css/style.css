@@ -1,10 +1,9 @@
 ﻿
 body{
 	margin:0;
-	background: #232329 url('../img/b.gif') 0 0 repeat;
+	background: #232329;
         background
 	background-size: cover;
-	background-repeat: repeat;
 }
 /*Header*/
 header{
